@@ -1,5 +1,7 @@
 # Human Action Recognition with CNNs
 
+> Code refactoring is in progress
+
 This project focuses on video classification using Convolutional Neural Networks. Two 50-layer ResNet models are trained and fine-tuned on the [UCF-101](https://www.crcv.ucf.edu/data/UCF101.php) dataset. One is a simgle frmae model which incorporates spatial information only. The other model is constructed based on 3D convolution that is able to account for temporal information and trained on video sequences instead of single frames.
 
 ## Dependencies
